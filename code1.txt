@@ -1,0 +1,12 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+int main() {
+    vector<int> numbers = {1, 5, 2, 9, 3};
+    auto max_it = max_element(numbers.begin(), numbers.end());
+    if (max_it != numbers.end()) {
+    	cout << "Максимальное значение: " << *max_it << endl;
+    }
+    return 0;
+}
