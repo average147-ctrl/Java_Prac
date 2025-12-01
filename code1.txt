@@ -32,9 +32,9 @@ int main() {
         return 1;
     }
     
-    auto max_it = max_element(numbers.begin(), numbers.end());
+    auto min_it = min_element(numbers.begin(), numbers.end());
     
-    cout << "Максимальное значение: " << *max_it << endl;
+    cout << "Минимальное значение: " << *min_it << endl;
     
     return 0;
 }
